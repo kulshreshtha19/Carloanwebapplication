@@ -1,0 +1,119 @@
+body{
+    background: #3dbfd9;
+    /* flex-wrap: nowrap; */
+    font-family: "Lato",Helvetica,Arial,sans-serif;
+    color: white;
+}
+
+.company_step4{
+    background-image: url(https://gaadi.bankbazaar.com/images/sprite/company-bg-v1.png);
+    background-repeat: no-repeat;
+    width: 820px;
+    height: 100%;
+    margin-left: 270px;
+}
+
+.text_step4{
+    padding-top: 215px;
+    padding-left: 285px;
+    font-size: 22px;
+}
+
+ #value_step4,select {
+    width: 250px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 20px;
+    height: 40px;
+    text-transform: uppercase;
+    /* margin-top: 10px; */
+}
+
+.input_step4{
+    padding-left: 255px;
+}
+
+.btn_step4.active
+{
+    background: #40e0d0 !important;
+}
+
+.btn_step4 {
+    border-radius:4px ;
+    border: 0;
+    outline: none;
+    /* padding: 5px 14px; */
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: gray;
+    cursor: pointer;
+    font-size: 15px;
+    background-repeat: no-repeat;
+    color: white;
+    }
+
+ #vehicle_step4{
+     margin-left: 285px;
+     margin-top: 40px;
+ }
+
+ .buttonproperty_step4{
+    color: #fff;
+    background-color: #e74c3c;  
+    height: 45px;
+    width: 150px;
+    border: 5px;
+    border-radius: 6px;
+    text-align: center;
+    margin-left: 307px;
+    font-weight: 520;
+    font-size: 22px;
+    cursor: pointer;
+    font-family: "Lato",Helvetica,Arial,sans-serif;
+    transition: all 0.5s;
+    margin-top: 50px;
+    outline: none;
+}
+
+.buttonproperty_step4:active,.buttonproperty_step4:hover{
+    outline: 0;
+    background-color: #ec7063;
+    text-decoration: none;
+}
+
+.form_step4{
+    background-color: #7af8bd;
+    color: #009e43;
+    padding: 10px 20px;
+    text-align: left;
+    border-radius: 4px;
+    max-width: 250px;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-top: -50px;
+    margin-left: -1px;
+}
+
+.tooltip_step4{
+    margin-top: -240px;
+    margin-left: 540px;
+}
+
+.arrow_step4{
+    border-right-color: #7af8bd !important;
+    border-width: 8px 9px 9px 0;
+    left: -8px;
+    top: 28%;
+    border-style: solid;
+    width: 0;
+    height: 0;
+    margin-left: -10px;
+    margin-top: 40px;
+    border-color: transparent;
+}

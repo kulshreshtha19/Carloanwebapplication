@@ -1,0 +1,42 @@
+table{
+    width: 88%;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    margin-left: 80px;
+    border-collapse: collapse;
+    border-radius: 4px;
+}
+
+p{
+    color:black;
+    /* text-align: center; */
+    font-size: 18px;
+    margin-left: 0px;
+}
+
+td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    /* width: 400px; */
+}
+
+th{
+    text-align: left;
+    padding: 8px;
+}
+
+
+
+body{
+    background: #3dbfd9;
+    font-family: "Lato",Helvetica,Arial,sans-serif;
+    color: black;
+}
+
+#mydiv{
+    height: 100%;
+    width: 100%;
+    /* background-color: white; */
+}

@@ -1,0 +1,55 @@
+<?php
+
+use yii\helpers\Html;
+use yii\widgets\DetailView;
+
+/* @var $this yii\web\View */
+/* @var $model frontend\models\Carloan */
+
+$this->title = $model->name;
+$this->params['breadcrumbs'][] = ['label' => 'Carloans', 'url' => ['index']];
+$this->params['breadcrumbs'][] = $this->title;
+?>
+<div class="carloan-view">
+
+    <h1><?= Html::encode($this->title) ?></h1>
+
+    <p>
+        <?= Html::a('Update', ['update', 'id' => $model->id], ['class' => 'btn btn-primary']) ?>
+        <?= Html::a('Delete', ['delete', 'id' => $model->id], [
+            'class' => 'btn btn-danger',
+            'data' => [
+                'confirm' => 'Are you sure you want to delete this item?',
+                'method' => 'post',
+            ],
+        ]) ?>
+    </p>
+
+    <?= DetailView::widget([
+        'model' => $model,
+        'attributes' => [
+            'id',
+            'name',
+            'phone',
+            'email:email',
+            'cartype',
+            'precar',
+            'currenlive',
+            'comname',
+            'grosssalary',
+            'salaryaccount',
+            'joiningdate',
+            'workexperience',
+            'movecity',
+            'movecurrent',
+            'age',
+            'Emi',
+            'monthlyincentive',
+            'residencetype',
+            'savetype',
+            'cid',
+            'createdAt',
+        ],
+    ]) ?>
+
+</div>

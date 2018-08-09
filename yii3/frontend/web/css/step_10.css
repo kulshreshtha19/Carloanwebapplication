@@ -1,0 +1,84 @@
+body{
+    background: #3dbfd9;
+    font-family: "Lato",Helvetica,Arial,sans-serif;
+    color: white;
+}
+
+#value_step10{
+    display: flex;
+    width: 30%;
+    height: 50px;
+    padding: 6px 12px;
+    font-size: 15px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    outline: none;
+}
+
+.image_1_step10{
+    /* background-image: url('rupee.png'); */
+    width: 20px;
+    height: 24px;
+    display: inline-block!important;
+    margin-top:11px; 
+}
+
+.image_step10{
+    background-color: #34495e;
+    border: 0 none;
+    vertical-align : middle;
+    border-radius: 4px 0 0 4px;
+    /* display: table-cell; */
+    padding: 0 12px;
+    width: 20px;
+    height: 50px;
+    margin-left: 450px;
+    /* background-image: url('rupee.png'); */
+}
+
+.text_step10{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    margin-top: 200px;
+}
+
+.heading_step10{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.buttonproperty_step10{
+color: #fff;
+background-color: #e74c3c;  
+height: 45px;
+width: 150px;
+border: 5px;
+border-radius: 6px;
+text-align: center;
+margin-left: 590px;
+font-weight: 520;
+font-size: 22px;
+cursor: pointer;
+font-family: "Lato",Helvetica,Arial,sans-serif;
+transition: all 0.5s;
+margin-top: 50px;
+outline: none;
+}
+
+.buttonproperty_step10:active,.buttonproperty_step10:hover{
+outline: 0;
+background-color: #ec7063;
+text-decoration: none;
+}
